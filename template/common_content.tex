@@ -1,0 +1,41 @@
+\ul{My most recent and significant work} started when I proactively sought new ideas on reducing the power consumption of mobile systems at academic venues. I had a chance to discuss with Dr.~Yunxin Liu, a Microsoft researcher, at the MobiSys conference.
+My knowledge and skills on mobile computing and networking subsequently earned me an internship at Microsoft Research Asia.
+
+The goal of this project was to significantly reduce the energy consumption of web page loading \emph{without increasing the page load time} of web browsers on smartphones.
+The energy reduction is necessary because browsers are core applications but energy-hungry, and mobile phones run on energy-limited batteries. However, it must not compromise user experience, which is directly related to the revenue of companies.
+
+The idea is simple yet difficult to implement because the Google Chrome browser is highly optimized and has been tested by billions of users. Additionally, the browser has limited documentation, so I gained insight into its internals mainly by persistently exploring its large codebase of 10\Plus million lines.
+During my 22-week internship, I tried more than 15 approaches from the kernel (e.g., dynamic voltage and frequency scaling (DVFS) and OS task scheduler) to the application level.
+I learned how to work with large software systems and do in-depth analyses to find inefficiencies.
+
+From the analysis of architectures and behaviors of popular mobile web browsers, I identified three energy-inefficiency issues and developed three energy-saving techniques to address these issues.
+The first two techniques leverage batched and adaptive processing to reduce overheads and redundant computation.
+The third one better utilizes the energy-efficient LITTLE cores on the heterogeneous big.LITTLE architecture.
+Experiment results on the top 100 websites show a 24\% average system-wide energy saving of the mobile Chrome browser while not increasing average page load time.
+
+The project~\cite{ebrowser} was published at the ACM MobiCom 2015 conference (18\% acceptance rate), and it is the first full paper from a university in South Korea accepted to the conference series. It also got highlighted in the ACM SIGMOBILE GetMobile magazine.
+Moreover, I had a project from Naver (the largest search engine in Korea) for integrating my techniques into its products.
+Finally, I will do an internship on quantifying and analyzing power consumption of the Chrome web browser with the Google Chrome Speed team at Google Mountain View, USA, starting June 2017.
+
+\ul{Another major project of mine} was motivated by the opportunity of supporting bandwidth-intensive services, such as high-quality video streaming, on mobile devices by using bandwidth aggregation over multiple wireless links.
+Because the networks (e.g., 3G, LTE, and WiFi) are typically bandwidth-limited and unreliable by nature, streaming video over a single mobile wireless network can be subject to frequent playback interruptions.
+
+In this study, I solved many challenges posed by the concurrent use of two wireless network interfaces (WiFi and LTE): system deployment, link heterogeneity, network fluctuation, and energy consumption.
+Compared to related work, my system requires no modification to existing Internet infrastructure and servers by using the widely employed TCP standard protocol.
+Furthermore, it conserves energy in aggregating bandwidth subject to QoS constraints while most existing approaches paid little attention to power consumption.
+
+The experiment results in both emulated and real-world environments show that the system not only achieves good bandwidth aggregation to provide QoS in bandwidth-scarce environments but also efficiently saves energy on mobile devices (e.g., 14-25\% energy reduction).
+The paper~\cite{greenbag} was published at the IEEE Real-Time Systems Symposium (RTSS) 2013 which has an acceptance rate of 22\%. My master's thesis, which is based on this paper, also received the Outstanding Master's Thesis award.
+
+In addition, my programming skills in system software and networking were sharpened in \ul{an internship at Samsung Electronics}. In this project, I developed an 11,000-line-of-code framework that helps users manage resources (camera, sensors, and apps) across multiple heterogeneous-platform mobile devices.
+This work~\cite{mobileplus} was presented at MobiSys 2016, and a full paper is currently under submission to MobiSys 2017.
+
+
+During \ul{my earlier undergraduate study}, I strove to grasp all subjects in both breadth and depth to establish a solid knowledge foundation. As a result, my GPA was ranked in the top 1\% of the Computer Science Department.
+Furthermore, I gained valuable research experience by working with Professor Thang Quyet Huynh and published a paper~\cite{bpelverify} at the ACM SoICT symposium, one of the largest computer science conferences in my country. In this study, I translated BPEL business processes to Promela programs, via labeled control flow graphs, for verification in the SPIN model checker. 
+Afterward, I won a highly competitive Korean Government Scholarship, which supported my two-year master's program at the Korea Advanced Institute of Science and Technology (KAIST).
+
+From my work experience in industrial and academic environments, I have strong motivations to become a scientist.
+Doing research is the best job I can do.
+I prefer the intellectual culture and the freedom of the scientific community to tackle fundamental and long-term problems which can make profound impacts on the world.
+In the long run, I want to become a professor at a research university.
